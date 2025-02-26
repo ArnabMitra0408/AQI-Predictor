@@ -20,12 +20,12 @@ To evaluate the models, we introduce:
 ### Health Risk Assessment Score (HRAS)
 Assesses model accuracy in predicting AQI health risk categories based on WHO guidelines.
 
-\[ HRAS = \frac{\text{Number of Correctly Predicted Risk Levels}}{\text{Total Predictions}} \]
+$$ HRAS = \frac{\text{Number of Correctly Predicted Risk Levels}}{\text{Total Predictions}} $$
 
 ### Hourly/Temporal Prediction Accuracy (HTPA)
 Measures accuracy across different hours, accounting for time-based variations like rush hour pollution.
 
-\[ HTPA = \frac{\text{Correct Hourly Predictions}}{\text{Total Hourly Predictions}} \]
+$$ HTPA = \frac{\text{Correct Hourly Predictions}}{\text{Total Hourly Predictions}} $$
 
 ## Model Architectures
 ### Hybrid Model
