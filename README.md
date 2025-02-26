@@ -48,7 +48,7 @@ The hybrid model significantly outperforms the ensemble model:
 | HRAS    | 0.93352       | 0.99645      |
 
 
-![Ensemble Model Predictions (Actual vs Predicted)]([Plots_and_Metrics/EnsembleModelPredictions(Acutal_Vs_Predicted).png](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/EnsembleModelPredictions(Acutal_Vs_Predicted).png))
+![Ensemble Model Predictions (Actual vs Predicted)](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/EnsembleModelPredictions(Acutal_Vs_Predicted).png)
 
 
 ![Ensemble Model Predictions (Actual vs Predicted)]([Plots_and_Metrics/HybridModelPredictions(Acutal_Vs_Predicted).png](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/HybridModelPredictions(Acutal_Vs_Predicted).png))
