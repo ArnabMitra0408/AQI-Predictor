@@ -1,0 +1,147 @@
+{
+    "overall_htpa": 0.999679402773166,
+    "hourly_stats": {
+        "0": {
+            "total_predictions": 3623,
+            "correct_predictions": 3621,
+            "accuracy": 0.9994479712945074
+        },
+        "1": {
+            "total_predictions": 3619,
+            "correct_predictions": 3619,
+            "accuracy": 1.0
+        },
+        "2": {
+            "total_predictions": 3629,
+            "correct_predictions": 3629,
+            "accuracy": 1.0
+        },
+        "3": {
+            "total_predictions": 3638,
+            "correct_predictions": 3636,
+            "accuracy": 0.999450247388675
+        },
+        "4": {
+            "total_predictions": 3628,
+            "correct_predictions": 3627,
+            "accuracy": 0.9997243660418964
+        },
+        "5": {
+            "total_predictions": 3753,
+            "correct_predictions": 3753,
+            "accuracy": 1.0
+        },
+        "6": {
+            "total_predictions": 3590,
+            "correct_predictions": 3590,
+            "accuracy": 1.0
+        },
+        "7": {
+            "total_predictions": 3683,
+            "correct_predictions": 3681,
+            "accuracy": 0.9994569644311703
+        },
+        "8": {
+            "total_predictions": 3673,
+            "correct_predictions": 3672,
+            "accuracy": 0.9997277429893819
+        },
+        "9": {
+            "total_predictions": 3545,
+            "correct_predictions": 3542,
+            "accuracy": 0.9991537376586742
+        },
+        "10": {
+            "total_predictions": 3607,
+            "correct_predictions": 3607,
+            "accuracy": 1.0
+        },
+        "11": {
+            "total_predictions": 3672,
+            "correct_predictions": 3671,
+            "accuracy": 0.9997276688453159
+        },
+        "12": {
+            "total_predictions": 3508,
+            "correct_predictions": 3507,
+            "accuracy": 0.999714937286203
+        },
+        "13": {
+            "total_predictions": 3646,
+            "correct_predictions": 3642,
+            "accuracy": 0.9989029072956664
+        },
+        "14": {
+            "total_predictions": 3604,
+            "correct_predictions": 3602,
+            "accuracy": 0.9994450610432852
+        },
+        "15": {
+            "total_predictions": 3653,
+            "correct_predictions": 3651,
+            "accuracy": 0.9994525047905831
+        },
+        "16": {
+            "total_predictions": 3720,
+            "correct_predictions": 3719,
+            "accuracy": 0.999731182795699
+        },
+        "17": {
+            "total_predictions": 3649,
+            "correct_predictions": 3645,
+            "accuracy": 0.9989038092628117
+        },
+        "18": {
+            "total_predictions": 3746,
+            "correct_predictions": 3746,
+            "accuracy": 1.0
+        },
+        "19": {
+            "total_predictions": 3641,
+            "correct_predictions": 3641,
+            "accuracy": 1.0
+        },
+        "20": {
+            "total_predictions": 3675,
+            "correct_predictions": 3675,
+            "accuracy": 1.0
+        },
+        "21": {
+            "total_predictions": 3586,
+            "correct_predictions": 3586,
+            "accuracy": 1.0
+        },
+        "22": {
+            "total_predictions": 3630,
+            "correct_predictions": 3630,
+            "accuracy": 1.0
+        },
+        "23": {
+            "total_predictions": 3619,
+            "correct_predictions": 3617,
+            "accuracy": 0.9994473611494888
+        }
+    },
+    "period_stats": {
+        "Afternoon (12:00-16:59)": {
+            "total_predictions": 18131,
+            "correct_predictions": 18121,
+            "accuracy": 0.9994484584413436
+        },
+        "Evening (17:00-21:59)": {
+            "total_predictions": 18297,
+            "correct_predictions": 18293,
+            "accuracy": 0.9997813849264907
+        },
+        "Morning (5:00-11:59)": {
+            "total_predictions": 25523,
+            "correct_predictions": 25516,
+            "accuracy": 0.9997257375700349
+        },
+        "Night (22:00-4:59)": {
+            "total_predictions": 25386,
+            "correct_predictions": 25379,
+            "accuracy": 0.9997242574647444
+        }
+    }
+}

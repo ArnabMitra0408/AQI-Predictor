@@ -1,0 +1,104 @@
+{
+    "train_metrics": {
+        "ensemble": {
+            "r2_score": 0.7546050049497354,
+            "rmse": 12.078513436453166,
+            "mae": 3.3699735589253956
+        }
+    },
+    "test_metrics": {
+        "ensemble": {
+            "r2_score": 0.7486354449774403,
+            "rmse": 13.552711374828338,
+            "mae": 3.427253457950609
+        }
+    },
+    "feature_importance": [
+        {
+            "feature": "no2",
+            "importance": 0.5402353446916339
+        },
+        {
+            "feature": "pm10",
+            "importance": 0.3170179816831878
+        },
+        {
+            "feature": "co",
+            "importance": 0.12287975191942979
+        },
+        {
+            "feature": "o3",
+            "importance": 0.017787685784620675
+        },
+        {
+            "feature": "pm2_5",
+            "importance": 0.0017122893273468472
+        },
+        {
+            "feature": "so2",
+            "importance": 0.00014054273394457426
+        },
+        {
+            "feature": "nh3",
+            "importance": 7.85735566052486e-05
+        },
+        {
+            "feature": "relative_humidity_2m",
+            "importance": 3.1294875340078256e-05
+        },
+        {
+            "feature": "soil_moisture_0_to_7cm",
+            "importance": 2.923053971401143e-05
+        },
+        {
+            "feature": "no",
+            "importance": 1.8961535475701567e-05
+        },
+        {
+            "feature": "wind_speed_10m",
+            "importance": 1.865759385775082e-05
+        },
+        {
+            "feature": "wind_direction_10m",
+            "importance": 1.819258772010691e-05
+        },
+        {
+            "feature": "soil_temperature_0_to_7cm",
+            "importance": 1.5326261679420322e-05
+        },
+        {
+            "feature": "temperature_2m",
+            "importance": 1.5269873683248763e-05
+        },
+        {
+            "feature": "rain",
+            "importance": 8.970357608116446e-07
+        }
+    ],
+    "training_params": {
+        "sequence_length": 24,
+        "batch_size": 32,
+        "feature_columns": [
+            "co",
+            "no",
+            "no2",
+            "o3",
+            "so2",
+            "pm2_5",
+            "pm10",
+            "nh3",
+            "temperature_2m",
+            "relative_humidity_2m",
+            "rain",
+            "wind_speed_10m",
+            "wind_direction_10m",
+            "soil_temperature_0_to_7cm",
+            "soil_moisture_0_to_7cm"
+        ],
+        "rf_params": {
+            "n_estimators": 200,
+            "max_depth": 20,
+            "min_samples_split": 5
+        }
+    }
+}
