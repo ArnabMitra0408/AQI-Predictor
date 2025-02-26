@@ -32,10 +32,13 @@ $$ HTPA = \frac{\text{Correct Hourly Predictions}}{\text{Total Hourly Prediction
 1. **Random Forest** (200 estimators, max depth = 20, min samples split = 5) predicts initial AQI values.
 2. **LSTM Model** (2 LSTM layers with 64 hidden units) learns temporal patterns from Random Forest residual errors.
 3. The final AQI prediction is obtained by adjusting Random Forest outputs using LSTM corrections.
+![Hybrid_Model_Architecture](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/Hybrid_Model_Architecture.png)
 
 ### Ensemble Model
 1. **Random Forest** and **LSTM** trained separately.
 2. Final prediction is computed as the average of both model outputs.
+
+![Ensemble_Model_Architecture](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/Ensemble_Model_Architecture.png)
 
 ## Results
 The hybrid model significantly outperforms the ensemble model:
@@ -51,7 +54,7 @@ The hybrid model significantly outperforms the ensemble model:
 ![Ensemble Model Predictions (Actual vs Predicted)](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/EnsembleModelPredictions(Acutal_Vs_Predicted).png)
 
 
-![Ensemble Model Predictions (Actual vs Predicted)]([Plots_and_Metrics/HybridModelPredictions(Acutal_Vs_Predicted).png](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/HybridModelPredictions(Acutal_Vs_Predicted).png))
+![Hybrid Model Predictions (Actual vs Predicted)](https://github.com/ArnabMitra0408/AQI-Predictor/blob/main/Plots_And_Metrics/HybridModelPredictions(Acutal_Vs_Predicted).png)
 
 
 
@@ -74,19 +77,24 @@ The hybrid model significantly outperforms the ensemble model:
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ArnabMitra0408/AQI-Hourly-Prediction.git
-   cd AQI-Hourly-Prediction
+   git clone [https://github.com/ArnabMitra0408/AQI-Hourly-Prediction.git](https://github.com/ArnabMitra0408/AQI-Predictor.git)
+   cd AQI-Predictor
    ```
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Train the models:
+3. Gather Data:
    ```bash
-   python train_hybrid.py
-   python train_ensemble.py
+   python data_scripts/aqi_data_gathering.py
+   python data_scripts/aqi_data_processing.py
+   python data_scripts/weather_data_collection.py
+   python data_scripts/weather_data_processing.py
+   python data_scripts/data_merge.py
+   
    ```
-4. Evaluate performance:
+4. Train the models:
    ```bash
-   python evaluate.py
+   python ensemble/ensemble.py
+   python hybrid/hybrid.py
    ```
