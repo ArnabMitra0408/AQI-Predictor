@@ -47,6 +47,14 @@ The hybrid model significantly outperforms the ensemble model:
 | HTPA    | 0.81510       | 0.99968      |
 | HRAS    | 0.93352       | 0.99645      |
 
+
+![Ensemble Model Predictions (Actual vs Predicted)](Plots_and_Metrics/EnsembleModelPredictions(Acutal_Vs_Predicted).png)
+
+
+![Ensemble Model Predictions (Actual vs Predicted)](Plots_and_Metrics/HybridModelPredictions(Acutal_Vs_Predicted).png)
+
+
+
 ## Conclusion
 - The **Hybrid Model** provides superior AQI predictions by combining feature selection (Random Forest) with temporal learning (LSTM).
 - The **Ensemble Model** offers efficiency but struggles with overfitting and lower generalization.
@@ -54,11 +62,13 @@ The hybrid model significantly outperforms the ensemble model:
 
 ## Repository Structure
 ```
-├── data/                # Processed datasets
-├── models/              # Trained model weights
-├── src/                 # Model training scripts
-├── results/             # Performance metrics & visualizations
-├── README.md            # Project documentation
+├── Notebooks/                # Contains all the notebooks for experimentaions
+├── Plots_and_Metrics/              # Contains all the plots and the metrics files
+├── data_scripts/                 # Contains all the code to fetch the raw_data
+├── data_store/             # Location where all the data (raw and processed) are stored)
+├── ensemble/            # Contains the code for the ensemble model
+├── hybrid/            # Contains the code for the hybrid model model
+
 ```
 
 ## Usage
